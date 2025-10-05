@@ -1,0 +1,37 @@
+import streamlit as st
+import os
+
+# --- Page Title ---
+st.title("Dexter Sia's Resume")
+
+# --- Contact Info ---
+st.header("Contact Information")
+st.write("📧 Email: dextersia0767@gmail.com")
+st.write("📞 Phone: +60 12-345 8888")
+st.write("🔗 LinkedIn: [linkedin.com/in/dextersia](https://linkedin.com/in/dextersia)")
+
+# --- Education ---
+st.header("Education")
+st.write("🎓 Bachelor of Information Technology, University of Malaysia Kelantan(2022 - Present)")
+
+# --- Work Experience ---
+st.header("Work Experience")
+st.write("💼 Software Intern, TechCorp (June 2024 - Sept 2024)")
+st.write("- Developed a Python automation tool to optimize workflows")
+st.write("- Assisted in front-end bug fixes for client projects")
+
+# --- Skills ---
+st.header("Skills")
+st.write("- Python, JavaScript, HTML, CSS")
+st.write("- Machine Learning, Streamlit, Git")
+
+# --- Projects ---
+st.header("Projects")
+st.write("🐦 Predator Prevention System - Camera-based alert app for poultry farms")
+st.write("📈 FBMKLCI Forecasting - Time-series prediction using Transformer models")
+
+
+    st.image(img_path, width=150)
+else:
+    st.warning("Profile image not found. Showing a placeholder instead.")
+    st.image("https://picsum.photos/200", width=150)
